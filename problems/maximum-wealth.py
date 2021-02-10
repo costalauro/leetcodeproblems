@@ -37,8 +37,8 @@
 # Solution
 
 
-def maximum_wealth(accounts: list[list[int]]) -> int:
+def maximum_wealth(accounts):
     return max(map(sum, accounts))
 
 
-print(str(maximum_wealth([[[[1, 2, 3], [3, 2, 1]]]])))
+print(str(maximum_wealth([[1, 2, 3], [3, 2, 1]])))
